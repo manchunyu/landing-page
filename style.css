@@ -1,9 +1,16 @@
 body {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 body > * {
     padding: 0px 100px;
 }
+
 .navbar {
     background-color: #1F2937;
     color: #ffffff;
@@ -13,4 +20,19 @@ body > * {
 }
 h1 {
     margin-right: auto;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    color: #ffffff;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+.img {
+    background-color: #686464;
+    flex-basis: 600px;
+    padding: 20px;
 }
