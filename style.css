@@ -1,10 +1,15 @@
+body {
+    height: 100vh;
+}
+body > * {
+    padding: 0px 100px;
+}
 .navbar {
     background-color: #1F2937;
     color: #ffffff;
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 0px 100px;
 }
 h1 {
     margin-right: auto;
