@@ -18,7 +18,7 @@ body > * {
     color: #ffffff;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 h1 {
     margin-right: auto;
@@ -29,7 +29,7 @@ h1 {
     align-items: center;
     background-color: #1F2937;
     color: #ffffff;
-    padding: 50px 200px;
+    padding: 100px 200px;
     gap: 50px;
     align-items: stretch;
 }
@@ -38,11 +38,14 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    max-width: 400px;
 }
 .content h2 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
+    text-align: left;
 }
 .content p {
     font-size: 18px;
@@ -52,6 +55,8 @@ h2 {
     font-size: 36px;
     font-weight: 900;
     margin: 0;
+    text-align: center;
+    margin-top: 50px;
 }
 button {
     max-width: fit-content;
@@ -64,11 +69,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-h2{
-    text-align: center;
-    margin-top: 50px;
 }
 .mid {
     display: flex;
@@ -126,6 +126,7 @@ h2{
     justify-content: center;
     background-color: #1F2937;
     color: #ffffff;
+    padding: 10px;
 }
 
 button {
