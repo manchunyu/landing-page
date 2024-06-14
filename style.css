@@ -69,6 +69,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 .mid {
     display: flex;
@@ -89,6 +90,7 @@ button {
     border: solid;
     border-width: 3px;
     border-color: #3882f6;
+    min-width: 100px;
 }
 
 .quote {
@@ -96,7 +98,7 @@ button {
     flex-direction: column;
     background-color: #E5E7EB;
     justify-content: center;
-    padding: 100px 250px;
+    padding: 100px 350px;
     gap: 10px;
 }
 .quote p {
@@ -113,6 +115,7 @@ button {
 
 .action {
     display: flex;
+    flex-wrap: wrap;
     background-color: #3882f6;
     align-items: center;
     justify-content: space-around;
