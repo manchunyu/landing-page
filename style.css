@@ -82,6 +82,7 @@ button {
     flex-direction: column;
     max-width: 100px;
     text-align: center;
+    align-items: center;
 }
 .randominfo div {
     flex-basis: 100px;
@@ -90,7 +91,8 @@ button {
     border: solid;
     border-width: 3px;
     border-color: #3882f6;
-    min-width: 100px;
+    min-width: 150px;
+    min-height: 150px;
 }
 
 .quote {
