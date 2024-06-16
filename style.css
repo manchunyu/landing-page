@@ -25,12 +25,12 @@ h1 {
 
 .top {
     display: flex;
-    align-items: center;
     background-color: #1F2937;
     color: #ffffff;
     padding: 100px 200px;
     gap: 50px;
     align-items: stretch;
+    justify-content: center;
 }
 
 .content {
